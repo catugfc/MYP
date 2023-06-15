@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./estilos/estilos.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vieja Estacion</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <div class="topnav" id="myTopnav">
+    <a href="Index.html" class="active"> <img src="./Imagenes/Logo.png" width="150" height="60"></a>
+    <a href="./Reserva.html"> Reservas </a>
+    <a href="./Carta.html"> Carta </a>
+    <a href="./nosotros.html"> Nosotros </a>
+    <a href="./contacto.html"> Contacto </a>
+    <a href="./Tienda.html"> Productos </a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+  </div>
+    
+  <div class="imagen">
+    <img src="./Imagenes/Computadora.png" width="100%">
+  </div>
+  
+  <div class="destacados">
+    <h5> Productos Destacados</h5>
+  </div>
+
+  <div id="productos">
+
+    <div class="Producto">
+      <img src="./imagenes/Gin london dry.jpg" width="50" height="150">
+      <a href="Tienda.html"> London dry gin x 500cc. </a>
+    </div>
+  
+    <div class="Producto">
+      <img src="./imagenes/Gin blue.jpg" width="50" height="150">
+      <a href="Tienda.html"> London blue gin x 750cc. </a>
+    </div>
+        
+    <div class="Producto">
+      <img src="./imagenes/Gin strawberry.jpg" width="50" height="150">
+      <a href="Tienda.html"> London strawberry gin x 750cc. </a>
+    </div>
+
+  </div>
+
+  <a class="tienda" href="Tienda.html"> Ver todos los productos </a>
+
+  <div class="Datos">
+
+    <div class="Informacion">
+      <img src="./imagenes/Camion.png" width="200" height="100">
+      <h1>Envios gratis</h1>
+      <p1>Envio gratis a toda la provincia de Buenos Aires</p1>
+    </div>
+    <div class="Informacion">
+      <img src="./imagenes/Tarjeta.png" width="120" height="80">
+      <h1>Todos los medios de pago</h1>
+      <p1>Tarjeta, Bancos digitales y efectivo en el local</p1>
+    </div>  
+    <div class="Informacion">
+      <img src="./imagenes/Seguridad.png" width="120" height="120">
+      <h1>Sitio seguro</h1>
+      <p1>Protegemos tus datos</p1>
+    </div>
+  </div>
+    
+  <section id="footer">
+    <div>
+      <p class="head">Contactanos</p>
+      <div class="info">
+        <p>+54 2262 602836</p>
+        <p>Calle 87-283, Necochea, Buenos Aires</p>
+      </div>
+    </div>
+    <div class="social-info">
+      <p>Redes Sociales</p>
+      <div class="iconos-redes">
+        <a href="https://www.instagram.com/viejaestacion/"> <img src="./Imagenes/Instagram.png" width="20px"> </a>
+        <a href="https://www.facebook.com/viejaestacioncervezaartesanal/"> <img src="./Imagenes/Facebook.png" width="20px"></img></a>
+      </div>
+    </div>
+    <div class="Logo">
+      <a href="index.html">
+        <img src="./imagenes/Logo_circular.png" width="50" height="50">
+      </a> 
+    </div>
+  </section>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+</body>
+</html>
